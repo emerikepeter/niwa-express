@@ -1,4 +1,4 @@
-import type { ApplicationsApiResponse } from "@/types/application";
+import type { ApplicationsApiResponse } from "@/modules/applications/types/dtos/application";
 
 // Local fixture for the dashboard. The summary counts represent aggregate totals,
 // so they intentionally do not need to equal the number of sample table rows.

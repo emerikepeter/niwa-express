@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { fetchApplications } from "@/api/applications";
-import type { ApplicationsApiResponse } from "@/types/application";
+import type { ApplicationsApiResponse } from "@/modules/applications/types/dtos/application";
 
 export function useApplications(simulateError: boolean, simulateEmpty: boolean) {
   // Keep request state together so the page can render loading, error, or data states.
